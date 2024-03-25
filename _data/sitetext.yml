@@ -11,10 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: "I'm a person-of-little-to-no-concern located in Boston MA. This is a website I made for showing other things I've made!"
+    text: Hi, I'm Allison!
+    profileimg: assets/img/IMG_6290.jpg
+    button: Start Exploring!
+    buttonlink: "#portfolio"
+
 
   services:
     title: "Services"
@@ -32,10 +34,17 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
+    title: "Robotics"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
+    image: assets/img/IMG_6290.jpg
+    categorylist:
+      - "Robotics"
+      - "Game Design"
+      - "Web Design"
+      - "Code"
+      - "Assistive Tech"
 
   timeline:
     title: "Timeline"
@@ -69,9 +78,8 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About Me"
+    body: "My name is Allison. I'm an engineer, artist, and educator located in Boston MA"
     section: about
 
   clients:

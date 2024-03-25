@@ -1,41 +1,87 @@
 // Styling for the masthead
 header.masthead {
-  text-align: center;
-  color: white;
-  background-image: url("#{$header-image}");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+
+  img{
+    width: 100%;
+    margin-top: 3rem;
+      padding: 2rem;
+      padding-bottom: .5rem;
+      border-radius: 50%;
+  }
+  .btn {
+  }
+
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    text-align: center;
     .intro-lead-in {
-      font-size: 22px;
+      font-size: 15px;
       font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
+      line-height: 11px;
+      margin-bottom: 11px;
       @include serif-font;
     }
     .intro-heading {
-      font-size: 50px;
+      font-size: 30px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
       @include heading-font;
     }
   }
+
 }
 @media (min-width: 768px) {
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+
+
   header.masthead {
+  
+  .btn {
+   display: block;
+  }
+    background-color: white;
+
+    img{
+      width: 100%;
+      padding: 0px;
+      margin-top: 0px;
+      padding-top: 100px;
+        padding-bottom: 200px;
+    }
+
+    body {
+      margin: 0;
+      padding: 1rem;
+    }
+    
+
+    .column {
+      padding: 1rem;
+      border-radius: 8px;
+      flex: 1;
+    }
+    
+
+    
+
+
     .intro-text {
-      padding-top: 300px;
+      color: rgb(9, 1, 1);
+      padding-top: 100px;
       padding-bottom: 200px;
+      float: right;
       .intro-lead-in {
-        font-size: 40px;
+        font-size: 22px;
         font-style: italic;
-        line-height: 40px;
-        margin-bottom: 25px;
+        line-height: 22px;
+        margin-bottom: 11px;
         @include serif-font;
       }
       .intro-heading {

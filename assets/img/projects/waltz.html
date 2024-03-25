@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<title>Allison Moore's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../style2.css">
+
+<link rel="stylesheet" href="../recentcad.css">
+<link rel="stylesheet" href="../calvin_1.css">
+<link rel="stylesheet" href="../calvin_2.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/download/jQuery-Touch-Events/0.9.0/src/jquery.mobile-events.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/v1.1.2/dist/jquery.flip.min.js"></script>
+
+<style>
+body {font-family: "Raleway", Arial, sans-serif}
+.w3-row img {margin-bottom: -8px}
+</style>
+
+
+<!-- mobile specific metas
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS
+================================================== -->
+
+
+<!-- script
+================================================== -->
+<script src="js/modernizr.js"></script>
+<script defer src="js/fontawesome/all.min.js"></script>
+
+
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+  <!-- Header -->
+  <header class="w3-xlarge top-padding-24">
+        <a href="../index.html#about" class="w3-right w3-button w3-white">About</a>
+      <a href="../index.html" class="w3-right w3-button w3-white">Home</a>
+      <br/><br/>
+     <div class="w3-center" id="headertext"><div id="myname">Projects & CAD</div>
+     2018-Present</div>
+  </header>
+
+  <div id="head-padding"></div>
+
+  <!-- Photo Grid -->
+  <section class="s-content">
+
+      <div class="row">
+          <div class="column large-12">
+
+              <article class="s-content__entry">
+
+                  <div class="s-content__media">
+                  </div> <!-- end s-content__media -->
+
+                  <div class="s-content__entry-header">
+                     <h1 class="s-content__title">Vienesse Waltzing Robots</h1>
+                  </div> <!-- end s-content__entry-header -->
+
+                  <div class="s-content__primary">
+
+                     <div class="s-content__page-content">
+
+                         <p class="lead">
+                              Using SPIKE LEGO Robotics kits, I worked with two
+                              partners to design a system of robots to “dance” based
+                              on the Viennese Waltz. Our trio of three separate robots followed an counterclockwise outer circle alongside
+                               other robot dancing “partners” while continuously spinning in smaller loops similar to the rotary style of the waltz.
+                               Our primary system
+                                consisted of a “leader” and “follower” robot, where the dance “leader” switched out mid dance with an
+                                alternative “leader robot.” We based the design of our robots on characters from the Disney movie "Up."
+<div class="row block-large-1-3 block-tab-full s-content__blocks">
+                                <div class="column">
+                                     <img id="HPLabs"src="../Pictures/Waltz/dog.jpeg" style="width:100%;">
+                                     <figcaption>Fig.1 - Labeled diagram of Leader A Robot</figcaption>
+
+                                </div>
+                                <div class="column">
+                                     <img id="HPLabs"src="../Pictures/Waltz/bird.jpeg" style="width:100%;">
+                                     <figcaption>Fig.2 - Labeled diagram of Leader B Robot</figcaption>
+
+                                </div>
+                                <div class="column">
+                                     <img id="HPLabs"src="../Pictures/Waltz/boy.jpeg" style="width:100%;">
+                                     <figcaption>Fig.3 - Labeled diagram of Follower Robot</figcaption>
+
+                                </div>
+                           </div>
+                      </p>
+                    <p class="lead">
+                           In our three part system, both "Leader" robots are
+                           constructed from a SPIKE Prime attached to a Raspberry Pi powered by
+                           a Battery PA. The Leader receives input from a microphone to detect music.
+                           It uses a color sensor to detect its place on a line and outputs proportional control values to its two motors.
+                           A green dot is attached to the leader for the follower's color tracking.
+                      </p>
+                      <iframe width="100%" class="fullvid" src="https://www.youtube.com/embed/OMv1w159Xak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <figcaption>Video.3 - Summary Video of Project Development (edited by Rebecca Shen)</figcaption>
+                      <p class="lead">
+                           Like the Leader," the "Follower" robot is constructed
+                           from a SPIKE Prime and a Battery Pack powered Raspberry
+                           Pi 4. The Follower receives input from a
+                            Raspberry Pi cv2 camera attached to the front of the robot.It uses image processing to track the
+                            green dot on the "Leader" robot. Output speed and direction changes are then sent to the SPIKE's motors.
+
+                    </p>
+                         <img id="HPLabs"src="../Pictures/Waltz/RobWaltzA.png" style="width:100%;">
+                         <figcaption>Fig.1 - System Diagram of Full Leader and Follower Robot System </figcaption>
+
+                         <br>
+
+
+
+                         <div class="row block-large-1-2 block-tab-full s-content__blocks">
+                              <div class="column">
+                                  <h4>Line Following</h4>
+                                  <p>
+                                  To navigate the outer waltz circle, we use a proportional control system with color tracking along a line. For this line following task, I identified an ideal threshold value as the average of “online” and “offline” color measurement so the “leader” would follow along the edge of the line.
+                             </p>
+
+                             <img id="HPLabs"src="../Pictures/Waltz/p_c.jpg" style="width:100%;">
+                             <figcaption>Fig.2 - Proportional Control Diagram for Line Following System</figcaption>
+                             <p>
+                                  Error is measured relative to the difference between this “threshold” value and the actual sensor value and modulated by proportionality constant “Kp” to control for environmental factors. The resulting speed of each wheel motor is then modulated by error to keep the “Leader” following along a line.
+                                 </p>
+
+                               <iframe width="100%" src="https://www.youtube.com/embed/TElTNYYjfrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               <figcaption>Video.1 - Initial Prototypes of Line Following Robot</figcaption>
+                              </div>
+
+                              <div class="column">
+                                  <h4>Color Tracking</h4>
+                                  <p>
+                                      To maintain a "dance" between the Waltzing Robots, we based the "follower" robot's movement on tracking
+                                   a green dot on the "leader robot." To import a physical image, we used an opencsv camera with SPIKE Prime
+                                   to identify a green ball shape with an image processing mask, dilations, erosions.
+                                   In our streamed video, we trace a yellow circle with a centered red dot with dimension coordinates that can
+                                   be returned to the proportional controller. In our initial trails, we used face tracking instead of color
+                                   tracking for our follower robot, however we switched to a color tracking system to decrease the follower
+                                   robot’s processing time.
+                              </p>
+                              <iframe width="100%" src="https://www.youtube.com/embed/0SKpCFWBwYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <figcaption>Video.2 - Development of Color Tracking System for "Follower" Robot</figcaption>
+                              <p>
+                                        For the movement of the follower, we used a proportional controller to keep the green dot at a
+                                   constant size and radius. The speed of the followers movement is dependent on the measured size and
+                                    position of the dot so that the follower
+                                   can speed up to catch up if it loses track of the dot and turn to stay in line with the
+                                   leader robot as it spins throughout the date.
+                              </p>
+
+                                   </div>
+
+                                   <div class="column">
+                                         <h4>Leader Switch Out</h4>
+                                         <p>
+                                              Although a waltz traditionally has two dancers,
+                                              we had a three robot
+                                              system and wanted to let all three robots "participate" in the dance.
+                                              We used the SPIKE Prime color sensor to detect when the "Leader"
+                                              robot runs over "red." Upon sensing "red," the leader robots will switch out with one another.
+
+                                       </p>
+                                       <iframe width="100%" src="https://www.youtube.com/embed/y8K5sXLbs8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
+
+
+                              <div class="column">
+                                  <h4>Music Detection</h4>
+                                  <p>
+                                  We used Pyaudio and a 1D linear classifier to identify variations the start and stop of waltz music using a microphone connected to Raspberry Pi 4. We then sent indicator values to the SPIKE to start
+                                  and stop over serial. While we were able to achieve some success with this method, we struggled to gather a dataset that could successfully differentiate between ambient noise and music since the Waltz music alternated between high and low output
+                                  values throughout the orchestration.
+                                  </p>
+
+                                  <iframe width="100%" src="https://www.youtube.com/embed/OMv1w159Xak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                  <figcaption>Video.3 - Robot Response to Waltz Music</figcaption>
+                              </div>
+                         </div>
+
+                         <p class="lead">
+                              <h3>Reflections and Challenges</h3>
+
+                              <h5>Color Tracking</h5>
+                                   <ul>
+                                    <li>Developing an effective color tracking process requires accurate and consistent color tracking. We had to develop separate code for calibrating our desired value for green so that the “follower” robot would not incorrectly object in the surrounding environment.</li>
+                                    <li>The following robot had to maintain a relatively close pace with the leader robot to keep the tracking dot in sight through multiple spins and direction changes. We were able to increase our video processing speed with threading and the “videoStream” function. </li>
+                                    <li>Adjusting the proportional control system so that the follower maintains an appropriate distance without crashing into the leader while maintaining vision of the dots took reasonable calibration. </li>
+                                  </ul>
+
+                              <h5>Music Detection</h5>
+                                   <ul>
+                                   <li>In our initial approach to music we implemented a machine learning music detection algorithm. However,
+                                   our early models were only able to reach an accuracy of around 0.6.
+                                   We attempted to compensate for this by dramatically increasing
+                                   measured chunk size and creating a 1D linear classifier.
+                                   This final method had an accuracy of around 0.8.</li>
+                              </ul>
+                              <h5>Line Following</h5>
+                                   <ul>
+                                   <li>We initially struggled to implement a proportional control
+                                   model since one of the leader
+                                   robots could only read in one value for color.
+                                   We had to reset the SPIKE in order to read in a greater range of data. </li>
+                                   <li>In initial trials, we struggled to find a loop pattern that both allowed our robot to return to the line and
+                                   that was large enough for the follower robot to keep track of the leader robot.
+                                    We had to interate through several loop
+                                   strategies to find an accessible system for spinning the robot and bringing it back to the line if it ran off course.</li>
+                                   </ul>
+                              <h5>Leader Switch</h5>
+                                   <ul>
+                                   <li>We struggled to calibrate the timing for a leader switch. Since we wanted a single piece of code to work
+                                   for running the robots both "on" and "off" the course
+                                   it was easy for the "follower" robot to accidentally track the
+                                   wrong leader robot or for the leader coming back on the course to miss the line.
+                                   </li>
+                                   <li>In our current system, the second "Leader" robot must be
+                                   physically pushed onto the marker
+                                   and the "red" marker must be placed directly on the circle. In the future,
+                                   we would like to automate this system more so that human intervention is not required for the switch.</li>
+                                   </ul>
+                        </p>
+                   </p>
+
+                   <p class="lead">
+                        <h3>Further Resources</h3>
+                        <li> A full compilation of code for this project can be accessed <a href="https://github.com/sbentl02/Dancing-Robots">here.</a> </li>
+
+                   </p>
+
+                         </div>
+                     </div> <!-- end s-entry__page-content -->
+
+                  </div> <!-- end s-content__primary -->
+              </article> <!-- end entry -->
+
+          </div> <!-- end column -->
+      </div> <!-- end row -->
+
+  </section> <!-- end s-content -->
+
+
+
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer / About Section -->
+<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+
+</footer>
+
+
+
+ <!-- CHANGES -->
+ <!-- CHANGES -->
+<script src="https://cdn.rawgit.com/download/jQuery-Touch-Events/0.9.0/src/jquery.mobile-events.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/v1.1.2/dist/jquery.flip.min.js"></script>
+
+</body>
+</html>
