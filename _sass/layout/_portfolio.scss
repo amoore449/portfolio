@@ -1,363 +1,404 @@
 // Styling for the portfolio section
 #portfolio {
 
-  .padded-bottom{
-    padding-bottom: 15px;
-  }
+	.padded-bottom {
+		padding-bottom: 15px;
+	}
 
-  /**********bacKGROUND*********/
-  .idea {
-    background-image: url(assets/img/portfoliopictures/LegLock/cards.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-  /********* FILTER GRID ***********/
+	/**********bacKGROUND*********/
+	.idea {
+		background-image: url(assets/img/portfoliopictures/LegLock/cards.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
 
-  .filterDiv {
-    display: none;
-  }
-  
-  .show {
-    display: block;
-  }
-  /* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
+	/********* FILTER GRID ***********/
 
-.btn:hover {
-  background-color: #ddd;
-}
+	.filterDiv {
+		display: none;
+	}
 
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-  
-  /**
+	.show {
+		display: block;
+	}
+
+	/* Style the buttons */
+	.btn {
+		border: none;
+		outline: none;
+		padding: 12px 16px;
+		background-color: #f1f1f1;
+		cursor: pointer;
+    margin: 5px;
+	}
+
+	.btn:hover {
+		background-color: #ddd;
+	}
+
+	.btn.active {
+		background-color: #666;
+		color: white;
+	}
+
+	/**
   *************************/
-  .video-fluid{
-    max-width: 100%;
-    height: auto;
+	.video-fluid {
+		max-width: 100%;
+		height: auto;
 
 
-  }
-  .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-    .portfolio-link {
-      position: relative;
-      display: block;
-      max-width: 400px;
-      margin: 0 auto;
-      cursor: pointer;
-      .portfolio-hover {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: all ease 0.5s;
-        -moz-transition: all ease 0.5s;
-        transition: all ease 0.5s;
-        opacity: 0;
-        background: fade-out($primary, 0.1);
-        &:hover {
-          opacity: 1;
-        }
-      
-        .portfolio-hover-content {
-          font-size: 20px;
-          position: absolute;
-          top: 50%;
-          width: 100%;
-          height: 20px;
-          margin-top: -12px;
-          text-align: center;
-          color: white;
-          i {
-            margin-top: -12px;
-          }
-          h3,
-          h4 {
-            margin: 0;
-          }
-        }
-      }
-    }
-    .portfolio-caption {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 25px;
-      text-align: center;
-      background-color: $white;
-      h4 {
-        margin: 0;
-        text-transform: none;
-      }
-      p {
-        font-size: 16px;
-        font-style: italic;
-        margin: 0;
-        @include serif-font;
-      }
-    }
-  }
-  * {
-    z-index: 2;
-  }
+	}
+
+	.portfolio-item {
+		right: 0;
+		margin: 0 0 15px;
+
+		.portfolio-link {
+			position: relative;
+			display: block;
+			max-width: 400px;
+			margin: 0 auto;
+			cursor: pointer;
+
+			.portfolio-hover {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				-webkit-transition: all ease 0.5s;
+				-moz-transition: all ease 0.5s;
+				transition: all ease 0.5s;
+				opacity: 0;
+				background: fade-out($primary, 0.1);
+
+				&:hover {
+					opacity: 1;
+				}
+
+				.portfolio-hover-content {
+					font-size: 20px;
+					position: absolute;
+					top: 50%;
+					width: 100%;
+					height: 20px;
+					margin-top: -12px;
+					text-align: center;
+					color: white;
+
+					i {
+						margin-top: -12px;
+					}
+
+					h3,
+					h4 {
+						margin: 0;
+					}
+				}
+			}
+		}
+
+		.portfolio-caption {
+			max-width: 400px;
+			margin: 0 auto;
+			padding: 25px;
+			text-align: center;
+			background-color: $white;
+
+			h4 {
+				margin: 0;
+				text-transform: none;
+			}
+
+			p {
+				font-size: 16px;
+				font-style: italic;
+				margin: 0;
+				@include serif-font;
+			}
+		}
+	}
+
+	* {
+		z-index: 2;
+	}
 }
 
-  
+
 figcaption {
-  font-size: 1rem;
-    text-align: center;
-    margin-bottom: 1rem;
-    width: 100%;
-    font-style: italic;
+	font-size: 1rem;
+	text-align: center;
+	margin-bottom: 1rem;
+	width: 100%;
+	font-style: italic;
 }
 
-.padded-bottom{
-  margin-bottom: 15px;
+.padded-bottom {
+	margin-bottom: 15px;
 }
 
 @media (min-width: 767px) {
-  #portfolio {
-    .portfolio-item {
-      margin: 0 0 30px;
-    }
- 
+	#portfolio {
+		.portfolio-item {
+			margin: 0 0 30px;
+		}
+
+	}
 }
 
-@media (max-width: 767px){
-
-
-.portfolio-modal {
-
-  
-  .padded-bottom{
-    padding-bottom: 15px;
-  }
-
-  .idea {
-    background-image: url(assets/img/portfoliopictures/LegLock/cards.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.container {
-  width: 90%; /*CHANGED THIS TO CENTER MODAL */
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;  
-  }
-
-}
-  }
-}
-
-.padded{
-  padding-top: 15px;
+.padded {
+	padding-top: 15px;
 }
 
 .portfolio-modal {
-  .modal-dialog {
-    margin: 1rem;
-    max-width: 100vw;
-  }
+	.modal-dialog {
+		margin: 1rem;
+		max-width: 100vw;
+	}
 
-  .container {
-    width: 50%; /*CHANGED THIS TO CENTER MODAL */
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
+	.container {
+		width: 50%;
+		/*CHANGED THIS TO CENTER MODAL */
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
 
-/*RESPONsIVE IFRAME CSS*/
-  .video-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  }
-  
-  /* Then style the iframe to fit in the container div with full height and width */
-  .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-  }
+	/*RESPONsIVE IFRAME CSS*/
+	.video-container {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		padding-top: 56.25%;
+		/* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+	}
 
-  .modal-content {
-    padding: 100px 0;
-    text-align: center;
-    h2 {
-      font-size: 3em;
+	/* Then style the iframe to fit in the container div with full height and width */
+	.responsive-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.modal-content {
+		padding: 100px 0;
+		text-align: center;
+
+		h2 {
+			font-size: 3rem;
+			margin-bottom: 15px;
+		}
+
+		p {
+			margin-bottom: 30px;
+		}
+
+		p.item-intro {
+			font-size: 16px;
+			font-style: italic;
+			margin: 20px 0 30px;
+			@include serif-font;
+		}
+
+		ul.list-inline {
+			margin-top: 0;
+			margin-bottom: 30px;
+		}
+
+		img {
+			margin-bottom: 30px;
+		}
+
+		button {
+			cursor: pointer;
+      margin-right: 5px;
       margin-bottom: 15px;
-    }
-    p {
-      margin-bottom: 30px;
-    }
-    p.item-intro {
-      font-size: 16px;
-      font-style: italic;
-      margin: 20px 0 30px;
-      @include serif-font;
-    }
-    ul.list-inline {
-      margin-top: 0;
-      margin-bottom: 30px;
-    }
-    img {
-      margin-bottom: 30px;
-    }
-    button {
-      cursor: pointer;
-    }
-  }
-  .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-    background-color: transparent;
-    &:hover {
-      opacity: 0.3;
-    }
-    .lr {
-      /* Safari and Chrome */
-      z-index: 1051;
-      width: 1px;
-      height: 75px;
-      margin-left: 35px;
-      /* IE 9 */
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-      background-color: $gray-900;
-      .rl {
-        /* Safari and Chrome */
-        z-index: 1052;
-        width: 1px;
-        height: 75px;
-        /* IE 9 */
-        -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
-        background-color: $gray-900;
-      }
-    }
-  }
+		}
+	}
+
+	.close-modal {
+		position: absolute;
+		top: 25px;
+		right: 25px;
+		width: 75px;
+		height: 75px;
+		cursor: pointer;
+		background-color: transparent;
+
+		&:hover {
+			opacity: 0.3;
+		}
+
+		.lr {
+			/* Safari and Chrome */
+			z-index: 1051;
+			width: 1px;
+			height: 75px;
+			margin-left: 35px;
+			/* IE 9 */
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+			background-color: $gray-900;
+
+			.rl {
+				/* Safari and Chrome */
+				z-index: 1052;
+				width: 1px;
+				height: 75px;
+				/* IE 9 */
+				-webkit-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				transform: rotate(90deg);
+				background-color: $gray-900;
+			}
+		}
+	}
 }
 
 
-#idea{
-  background-image: url(assets/img/portfoliopictures/LegLock/carsa.png) !important;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+@media (max-width: 767px) {
+	.portfolio-modal {
+      .padded-bottom {
+        padding-bottom: 15px;
+      }
+
+
+      .idea {
+        background-image: url(assets/img/portfoliopictures/LegLock/cards.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      .container {
+        width: 90%;
+        /*CHANGED THIS TO CENTER MODAL */
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .modal-content {
+        h2 {
+          font-size: 2rem;
+        }
+      }
+
+	}
+}
+
+#idea {
+	background-image: url(assets/img/portfoliopictures/LegLock/carsa.png) !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 /*Slideshow CSS*/
-* {box-sizing:border-box}
+* {
+	box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
 }
 
-#myBtnContainer{
-  padding: 15px;
+#myBtnContainer {
+	padding: 15px;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+	display: none;
 }
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+	right: 0;
+	border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active,
+.dot:hover {
+	background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
 }
