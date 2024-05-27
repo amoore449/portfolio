@@ -22,4 +22,9 @@ slides:
 
 
 ---
+
+<div class="video-container d-block mx-auto">
+  <iframe class="responsive-iframe img-fluid d-block mx-auto" src= "https://www.youtube.com/embed/P5tnQ8JNzDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 This robot uses OpenCV finger detection to identify and play catch with users. In each game, the robot will sweep to identify how many users are in range and then shoot a tennis ball and and receive the from each user when they indicate they are ready with their fingers.

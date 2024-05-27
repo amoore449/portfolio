@@ -1,12 +1,25 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
-  background-image: url("#{$contact-image}");
+  /*background-image: url("#{$contact-image}");*/
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+
   .section-heading {
-    color: $white;
+    color: #f8f9fa;
   }
+  .section-subheading {
+    color: #f8f9fa;
+  }
+  
+  
+  .container{
+    padding: 30px;
+    background-color: #212529;
+    color: #f8f9fa;
+    border-radius: 20px;
+  }
+
   .form-group {
     margin-bottom: 25px;
     input,

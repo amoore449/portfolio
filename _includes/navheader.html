@@ -32,7 +32,7 @@
           {%- if link.url -%}
             <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
           {%- elsif link.section -%}
-            <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger" href="{{ link.section }}">{{ link.title }}</a>
           {%- else -%}
             <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}
@@ -65,7 +65,7 @@
     <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
     {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink}}">{{ site.data.sitetext[site.locale].header.button}}</a>
+        <a class="btn  btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink}}"> ↓</a>
 	  {%- endif -%}
       </div>
     </div>

@@ -11,16 +11,20 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Portfolio"
-      section: portfolio
+    - title: "Home"
+      url: index.html
+    - title: "Tech"
+      url: tech.html
+    - title: "Art"
+      url: art.html
+    - title: "Work"
+      url: work.html
+    - title: "Other"
+      url: other.html
     - title: "About"
-      section: about
-    - title: "Timeline"
-      section: timeline
+      url: index.html#about
     - title: "Contact"
-      section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+      url: index.html#contact
 en-US:
   <<: *DEFAULT_EN
 en-CA:

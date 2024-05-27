@@ -1,6 +1,6 @@
 <!-- Portfolio Grid -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="bg-light page-section" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
+<section class="bg-light page-section no-padding" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
   <div class="container">
 
     
@@ -8,8 +8,7 @@
 
   
 <div class="row">
-  <div class="col-lg-12 text-center">
-    <h2 class="section-heading text-uppercase">Here are projects I've worked on!</h2>
+  <div class="col-lg-12 text-center no-padding">
     <div id="myBtnContainer">
       <button class="mybtn btn active" onclick="filterSelection('all')"> Show all</button>
       {% for category in site.data.sitetext[site.locale].portfolio.categorylist %}

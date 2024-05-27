@@ -1,0 +1,193 @@
+
+
+<!-- Portfolio Modals -->
+{% assign sorted_portfolio = site.workportfolio | sort: "subtitle" | reverse %} 
+{% for project in sorted_portfolio %}
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<div
+  class="portfolio-modal modal fade"
+  id="p{{ forloop.index }}"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">{{ project.title }} </h2>
+              <p class="item-intro text-muted">{{ project.subtitle }}</p>
+
+            </div>
+            </div>
+            <p >{{ project.content }}</p>
+            {% if project.video %}
+            <div class="video-container d-block mx-auto">
+              <iframe class="responsive-iframe img-fluid d-block mx-auto" src= "{{project.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% endif %}
+
+            
+            
+
+              <div class="row padded">
+                {% for slide in project.slides %}
+                <div class="col-md-6 col-sm-6 ">
+                  {% if slide.image %}
+                
+                  <img
+                  class="img-fluid d-block mx-auto"
+                  src="{{ slide.image }}"
+                  alt="{{ slide.image }}"/>
+                  {% endif %}
+                </div>
+                <!-- Full-width images with number and caption text -->
+                {% endfor %}
+              </div>
+           </div>
+        
+           
+           
+<div class="row">
+              {% if project.github %}
+              <a href='{{ project.github}}' target="_blank">
+              <button
+                class="btn btn-primary margin_right"
+                href="{{ project.github}}"
+                type="button">
+              Go to Github
+              </button>
+              </a>
+              {% endif %}
+
+              {% if project.website %}
+              <a href='{{ project.website}}' target="_blank">
+              <button
+                class="btn btn-primary margin_right"
+                href="{{ project.website}}"
+                type="button">
+              Go to Website
+              </button>
+              </a>
+              {% endif %}
+
+              {% if project.paper %}
+              <a href='{{ project.paper}}' target="_blank">
+              <button
+                class="btn btn-primary margin_right"
+                href="{{ project.paper}}"
+                type="button">
+              Go to Paper
+              </button>
+              </a>
+              {% endif %}
+
+
+              <button
+                class="btn btn-primary margin_right"
+                data-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-times"></i>
+               {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                default: "Close Project" }}
+              </button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div
+  class="portfolio-modal modal fade"
+  id="p{{ forloop.index }}"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">{{ project.title }} TSSTST</h2>
+              <p class="item-intro text-muted">{{ project.subtitle }}</p>
+
+            </div>
+            </div>
+            
+            <p >{{ project.content }}</p>
+            {% if project.video %}
+            <div class="video-container d-block mx-auto">
+              <iframe class="responsive-iframe img-fluid d-block mx-auto" src= "{{project.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% endif %}
+
+            
+            
+
+              <div class="row padded">
+                {% for slide in project.slides %}
+                <div class="col-md-6 col-sm-6 ">
+                  {% if slide.image %}
+                
+                  <img
+                  class="img-fluid d-block mx-auto"
+                  src="{{ slide.image }}"
+                  alt="{{ slide.image }}"/>
+                  {% endif %}
+                </div>
+                <!-- Full-width images with number and caption text -->
+                {% endfor %}
+              </div>
+           </div>
+           <div class="row ">
+              {% if project.github %}
+              
+              <button
+                class="btn btn-primary margin_right"
+                data-dismiss="modal"
+                type="button"
+              >
+              Go to Github
+              </button>
+            
+            {% endif %}
+            <br>
+              <button
+                class="btn btn-primary margin_right"
+                data-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-times"></i>
+               {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                default: "Close Project" }}
+              </button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}

@@ -14,8 +14,8 @@ en: &DEFAULT_EN
     title: "I'm a person-of-little-to-no-concern located in Boston MA. This is a website I made for showing other things I've made!"
     text: Hi, I'm Allison!
     profileimg: assets/img/IMG_6290.jpg
-    button: Start Exploring!
-    buttonlink: "#portfolio"
+    button: "'Bleep Bloop' Projects"
+    buttonlink: "#explore"
 
 
   services:
@@ -35,6 +35,29 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Robotics"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+    image: assets/img/IMG_6290.jpg
+    categorylist:
+      - "Robotics"
+      - "Game Design"
+      - "Web Design"
+      - "Code"
+      - "Assistive Tech"
+
+  work:
+    title: "Work"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+    image: assets/img/IMG_6290.jpg
+    categorylist:
+      - "Engineering"
+      - "Education"
+
+  artportfolio:
+    title: "Art Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
@@ -79,7 +102,9 @@ en: &DEFAULT_EN
 
   about:
     title: "About Me"
-    body: "My name is Allison. I'm an engineer, artist, and educator located in Boston MA"
+    body: "My name is Allison. I'm an engineer, maker, and educator located in Boston MA and originally from Sunnyv`ale, CA.
+     I received my B.S. in Mechanical Engineering from Tufts University in Medford MA and have since worked mainly in robotics and makerspaces. I love making anything and everything, moving around,
+    playing banjo and guitar, and being outside. I have a leopard gecko named Morton. I made this website in HTML/CSS using a Jekyll build."
     section: about
 
   clients:
@@ -138,8 +163,8 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact Me"
+    text: "Write a message here or email moore.m.allison@gmail.com"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -198,7 +223,7 @@ es: &DEFAULT_ES
         desc: "Su descripción aquí, soporte completo de **Markdown**"
         icon: fab fa-markdown
 
-  portfolio:
+  techportfolio:
     title: "Portafolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portafolio

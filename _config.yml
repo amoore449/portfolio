@@ -16,7 +16,7 @@ theme: jekyll-agency
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      :  :)
+title      :  <3
 email      : moore.m.allison@gmail.com #this is also the email contact forms will go to
 description: "Hi my name is Allison! Here are some things I've made"
 author     : Allison Moore
@@ -31,6 +31,9 @@ analytics:
 
 collections:
   portfolio:
+  artportfolio:
+  workportfolio:
+  otherportfolio:
 
 markdown: kramdown
 
