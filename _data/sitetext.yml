@@ -102,9 +102,10 @@ en: &DEFAULT_EN
 
   about:
     title: "About Me"
-    body: "My name is Allison. I'm an engineer, maker, and educator located in Boston MA and originally from Sunnyv`ale, CA.
-     I received my B.S. in Mechanical Engineering from Tufts University in Medford MA and have since worked mainly in robotics and makerspaces. I love making anything and everything, moving around,
-    playing banjo and guitar, and being outside. I have a leopard gecko named Morton. I made this website in HTML/CSS using a Jekyll build."
+    body: "My name is Allison. I'm an engineer, maker, and educator located in Boston MA, and originally from Sunnyvale, CA.
+ I received my B.S. in Mechanical Engineering from Tufts University in Medford MA, and have since worked mainly in robotics and makerspaces. I love making anything and everything, especially alongside other people.  
+I think the fundamental role of technology should be to enhance quality of life for all, to help individuals better realize creative processes, and to help people determine their social futures. Consequently, I am curious about the design of technology and systems that put the power to create in the hands of users. 
+I have a leopard gecko named Morton. I made this website in HTML/CSS using a Jekyll build.."
     section: about
 
   clients:
