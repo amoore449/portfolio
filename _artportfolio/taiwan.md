@@ -4,7 +4,7 @@ category: ["digital art"]
 caption: #what displays in the portfolio grid
   subtitle: 2024
   title: Taiwan Comics
-  thumbnail: assets/img/portfoliopictures/art/taiwan1.pg
+  thumbnail: assets/img/portfoliopictures/art/taiwan1.jpg
   materials: Digital
 
 
@@ -26,6 +26,18 @@ image: assets/img/portfoliopictures/art/taiwan1.jpg
   </div>
    <div class="col-md-6 col-sm-6 ">
      <img class="img-fluid d-block mx-auto" src="assets/img/portfoliopictures/art/ghost1.png" alt=""/>
+  </div>
+     <div class="col-md-6 col-sm-6 ">
+     <img class="img-fluid d-block mx-auto" src="assets/img/portfoliopictures/art/taiwan3.png" alt=""/>
+  </div>
+   <div class="col-md-6 col-sm-6 ">
+     <img class="img-fluid d-block mx-auto" src="assets/img/portfoliopictures/art/taiwan5.png" alt=""/>
+  </div>
+     <div class="col-md-6 col-sm-6 ">
+     <img class="img-fluid d-block mx-auto" src="assets/img/portfoliopictures/art/taiwan4.png" alt=""/>
+  </div>
+   <div class="col-md-6 col-sm-6 ">
+     <img class="img-fluid d-block mx-auto" src="assets/img/portfoliopictures/art/taiwan6.png" alt=""/>
   </div>
 </div>
 

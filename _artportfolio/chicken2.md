@@ -4,7 +4,7 @@ category: ["digital art"]
 caption: #what displays in the portfolio grid:
   subtitle: 2023
   title: Chicken 2
-  thumbnail: assets/img/portfoliopictures/art/chicken2.jpg
+  thumbnail: assets/img/portfoliopictures/art/chicken2.JPG
   materials: Acrylic Paint
 
 

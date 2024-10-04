@@ -13,7 +13,7 @@ image: assets/img/portfoliopictures/PageTurn.png
 #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 video: https://www.youtube.com/embed/aXgsBRH5ZlA
-website: https://amoore449.github.io/portfolio/leglocker.html 
+website: https://amoore449.github.io/oldportfolio/leglocker.html 
 
 slides:
   - image: assets/img/portfoliopictures/LegLock/teampic.jpeg
