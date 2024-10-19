@@ -4,19 +4,18 @@ category: ["interviews"]
 caption: #what displays in the portfolio grid:
   title: Big List of Questions
   subtitle: 2022
-  thumbnail: assets/img/portfoliopictures/quest2.jpg
+  thumbnail: assets/img/question.jpg
   
 #what displays when the item is clicked:
 title: Big List of Questions
 subtitle: 2022
-image: assets/img/portfoliopictures/surveys.jpg
+image: assets/img/question.jpg
 #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 website: https://sites.google.com/view/qjustcus/the-big-question-list?authuser=0 
 
 slides:
 ---
-
 My big list of questions to ask people. Peruse away!
 
 1.	One word to describe our relationship
@@ -26,7 +25,7 @@ My big list of questions to ask people. Peruse away!
 5.	Who is your comfort friend and why?
 6.	Favorite public transportation
 7.	What is your Process for peeling and orange
-8.	How do you eat your Oreos
+8.	How do you eat your Oreos?
 9.	Have you learned or tried anything new recently?
 10.	What is love to you? Do you associtae it with a particular color or sensory experience?
 11.	fav president
@@ -139,7 +138,7 @@ My big list of questions to ask people. Peruse away!
 118.	What do you mean when you say “ i love you” to someone? How often do you say it?
 119.	What is your ideal night?
 120.	What does sex mean to you?
-121.	If you were to give someone a kakapoo what would that mean?
+121.	If you were to give someone a "kakapoo" what would that mean?
 122.	Have you been in love? Do you think you could experience that same type of love again?
 123.	Do you think there is a core part of you that has been constant through life?
 124.	Do people change?
@@ -157,3 +156,7 @@ My big list of questions to ask people. Peruse away!
 136.	What is your favorite kind of smoothie?
 137.	Do you have any recurring dreams?
 138.	If your father was a milkshake, what flavor would he be?
+139.  What is your favorite hat?
+140. What would you do if you were stuck in a time loop?
+141. What is success to you?
+142. What is your favorite type of fireworK?
