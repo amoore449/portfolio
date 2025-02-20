@@ -14,7 +14,7 @@ caption: #what displays in the portfolio grid
 title: Things We Won't Change
 subtitle: 2024 - Zine
 image: assets/img/abortionzine/blackedges/border6.png
-website: https://amoore449.github.io/oldportfolio/leglocker.html 
+website: https://issuu.com/juliette.orangetree/docs/my_body_my_fucking_choice_3?fbclid=PAZXh0bgNhZW0CMTEAAaZdegCPyR64cZk3bM1Hzpcs6poVTnICZFWfVY69JTTo0QrmkUCwdETgPaw_aem_Ry2FeHQJR6cLnLsF8XDqYg 
 
 
 ---
@@ -45,4 +45,4 @@ website: https://amoore449.github.io/oldportfolio/leglocker.html
   </div>
 </div>
 
-A short zine about abortion rights. 
+A short comic about abortion rights published in MY BODY, MY FUCKING CHOICE," a reproductive justice and abortion care zine. This zine was produced in response to the 2024 election results
