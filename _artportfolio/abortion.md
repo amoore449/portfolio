@@ -4,7 +4,7 @@ category: ["digital art"]
 caption: #what displays in the portfolio grid
   subtitle: 2024
   title: Things We Won't Change 
-  thumbnail: /assets/img/abortionzine/blackedges/border6.png
+  thumbnail: assets/img/abortionzine/blackedges/border6.png
   materials: Digital
 
 
@@ -22,25 +22,25 @@ website: https://amoore449.github.io/oldportfolio/leglocker.html
  <div class="col-md-12 col-sm-12 ">
      <img class="img-fluid d-block mx-auto" src="assets/img/abortionzine/blackedges/border1.png" alt=""/>
   </div>
-   <div class="col-md-6 col-sm-6 ">
+   <div class="col-md-12 col-sm-12 ">
      <img class="img-fluid d-block mx-auto" src="assets/img/abortionzine/blackedges/border2.png" alt=""/>
   </div>
-   <div class="col-md-6 col-sm-6 ">
+   <div class="col-md-12 col-sm-12">
      <img class="img-fluid d-block mx-auto" src="assets/img/abortionzine/blackedges/border3.png" alt=""/>
   </div>
-     <div class="col-md-6 col-sm-6 ">
+     <div class="col-md-12 col-sm-12">
      <img class="img-fluid d-block mx-auto" src="assets/img/abortionzine/blackedges/border4.png" alt=""/>
   </div>
-   <div class="col-md-6 col-sm-6 ">
+   <div class="col-md-12 col-sm-12">
      <img class="img-fluid d-block mx-auto" src="assets/img/abortionzine/blackedges/border5.png" alt=""/>
   </div>
-     <div class="col-md-6 col-sm-6 ">
+     <div class="col-md-12 col-sm-12 ">
      <img class="img-fluid d-block mx-auto" src="assets/img/abortionzine/blackedges/border6.png" alt=""/>
   </div>
-   <div class="col-md-6 col-sm-6 ">
+   <div class="col-md-12 col-sm-12 ">
      <img class="img-fluid d-block mx-auto" src="assets/img/abortionzine/blackedges/border7.png" alt=""/>
   </div>
-     <div class="col-md-6 col-sm-6 ">
+     <div class="col-md-12 col-sm-12 ">
      <img class="img-fluid d-block mx-auto" src="assets/img/abortionzine/blackedges/border8.png" alt=""/>
   </div>
 </div>
