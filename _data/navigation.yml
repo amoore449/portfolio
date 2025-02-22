@@ -20,7 +20,7 @@ en: &DEFAULT_EN
     - title: "Work"
       url: work.html
     - title: "Other"
-      url: other.
+      url: other.html
     - title: "Questions"
       url: question.html
     - title: "About"
