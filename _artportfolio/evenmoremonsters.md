@@ -4,7 +4,7 @@ category: ["digital art"]
 caption: #what displays in the portfolio grid
   subtitle: 2025
   title: Even More Monsters
-  thumbnail: assets/img/monstersart/MORTON7.png
+  thumbnail: assets/img/monstersart/MORTON9.png
   materials: Digital
 
 
@@ -13,7 +13,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Even More Monsters
 subtitle: 2025
-image: assets/img/monstersart/MORTON7.png
+image: assets/img/monstersart/MORTON9.png
 
 
 ---
@@ -22,7 +22,10 @@ image: assets/img/monstersart/MORTON7.png
      <img class="img-fluid d-block mx-auto" src="assets/img/monstersart/MORTON7.png" alt=""/>
   </div>
    <div class="col-md-12 col-sm-12">
-     <img class="img-fluid d-block mx-auto" src="assets/img/monstersart/MORTON8.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/monstersart/MORTON9.png" alt=""/>
+  </div>
+     <div class="col-md-12 col-sm-12">
+     <img class="img-fluid d-block mx-auto" src="assets/img/monstersart/MORTON15.png" alt=""/>
   </div>
 
 </div>
