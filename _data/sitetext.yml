@@ -57,17 +57,16 @@ en: &DEFAULT_EN
       - "Education"
 
   artportfolio:
-    title: "Art Portfolio"
+    title: "Art & Design"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
     image: assets/img/IMG_6290.jpg
     categorylist:
-      - "Robotics"
-      - "Game Design"
-      - "Web Design"
-      - "Code"
-      - "Assistive Tech"
+      - "Design"
+      - "Adobe Suite"
+      - "Comics and Zines"
+      - "Other Art"
 
   timeline:
     title: "Timeline"

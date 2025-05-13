@@ -1,9 +1,10 @@
 ---
-category: ["digital art"]
+category: ["Design", "Adobe Suite"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2025
   title: Hive-lights - Chelsea Spears
+  date: 25-03-23
   thumbnail: assets\img\design\chelsea.png
   materials: Digital
 
@@ -13,6 +14,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Hive-lights - Chelsea Spears
 subtitle: 2025
+date: 25-03-23
 image: assets\img\design\chelsea.png
 website: https://www.instagram.com/p/DJcCbdBtjlg/?img_index=1
 

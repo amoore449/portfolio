@@ -1,8 +1,9 @@
 ---
-category: ["digital art"]
+category: ["Other Art"]
 
 caption: #what displays in the portfolio grid:
   subtitle: 2023
+  date: 23-02-14
   title: We Lived Happily
   thumbnail: assets/img/portfoliopictures/art/paintingcleo-square.jpg
   materials: Acrylic Paint, Spray Paint
@@ -12,6 +13,7 @@ caption: #what displays in the portfolio grid:
 
 #what displays when the item is clicked:
 title: We Lived Happily
+date: 23-02-14
 subtitle: 2023 - Acrylic Paint, Spray Paint
 image: assets/img/portfoliopictures/art/paintingcleo.jpg
 

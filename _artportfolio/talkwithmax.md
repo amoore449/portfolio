@@ -1,10 +1,11 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2023
   title: Talking to Max
   thumbnail: assets/img/portfoliopictures/art/talkwithmax.png
+  date: 23-12-06
   materials: Digital
 
 
@@ -13,6 +14,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Talking with Max
 subtitle: 2023 - Digital
+date: 23-12-06
 image: assets/img/portfoliopictures/art/talkwithmax.png
 
 

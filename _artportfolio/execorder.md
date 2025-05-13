@@ -1,8 +1,9 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2025
+  date: 25-01-22
   title: Executive Order Summary
   thumbnail: assets/img/executiveorder/8.jpg
   materials: Digital
@@ -12,6 +13,7 @@ caption: #what displays in the portfolio grid
 
 #what displays when the item is clicked:
 title: Executive Order Summary
+date: 25-01-22
 subtitle: 2025 - Comics
 image: assets/img/executiveorder/2.jpg
 

@@ -1,10 +1,11 @@
 ---
-category: ["digital art"]
+category: ["Other Art"]
 
 caption: #what displays in the portfolio grid:
-  subtitle: 2023
+  subtitle: 2022
   thumbnail: assets/img/portfoliopictures/art/spew.PNG
   title: Spew
+  date: 22-07-06
   materials: Acrylic Paint
 
 
@@ -12,7 +13,8 @@ caption: #what displays in the portfolio grid:
 
 #what displays when the item is clicked:
 title: Painting
-subtitle: 2023
+subtitle: 2022
+date: 22-08-06
 image: assets/img/portfoliopictures/art/spew.PNG
 
 

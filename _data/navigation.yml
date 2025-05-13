@@ -15,7 +15,7 @@ en: &DEFAULT_EN
       url: index.html
     - title: "Tech"
       url: tech.html
-    - title: "Art"
+    - title: "Art/Design"
       url: art.html
     - title: "Work"
       url: work.html

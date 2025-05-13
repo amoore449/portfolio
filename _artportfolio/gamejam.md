@@ -1,8 +1,9 @@
 ---
-category: ["Adobe"]
+category: ["Adobe Suite", "Design"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2025
+  date: 25-02-04
   title: Game Jam Poster 
   thumbnail: assets/img/design/GNP.png
   materials: Digital
@@ -13,6 +14,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Game Jam Poster
 subtitle: 2024 - Illustrator
+date: 25-02-04
 image: assets/img/design/GNP.png
 website: 
 

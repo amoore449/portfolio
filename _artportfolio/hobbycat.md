@@ -1,9 +1,10 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2024
   title: Hobby Cat
+  date: 24-07-06
   thumbnail: assets/img/hobbycat/3.png
   materials: Digital
 
@@ -12,6 +13,7 @@ caption: #what displays in the portfolio grid
 
 #what displays when the item is clicked:
 title: Hobby Cat
+date: 24-07-26
 subtitle: 2024 - Comics
 image: assets/img/executiveorder/2.jpg
 

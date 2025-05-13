@@ -1,8 +1,9 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2024
+  date: 25-06-04
   title: Goose Girl Zine
   thumbnail: assets/img/portfoliopictures/art/goosezine/COVER.png
   materials: Digital
@@ -12,6 +13,7 @@ caption: #what displays in the portfolio grid
 
 #what displays when the item is clicked:
 title: Goose Girl Zine
+date: 25-06-04
 subtitle: 2024 - Digital
 image: assets/img/portfoliopictures/art/goosezine/COVER.png
 

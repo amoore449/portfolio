@@ -1,8 +1,9 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2025
+  date: 25-01-15
   title: Biking in Winter
   thumbnail: assets/img/affirmations/1.jpg
   materials: Digital
@@ -13,6 +14,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Biking in Winter
 subtitle: 2025 - Comics
+date: 25-01-15
 image: assets/img/executiveorder/2.jpg
 
 

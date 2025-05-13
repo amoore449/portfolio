@@ -1,8 +1,9 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2024
+  date: 24-10-12
   title: Things We Won't Change 
   thumbnail: assets/img/abortionzine/blackedges/border6.png
   materials: Digital
@@ -13,6 +14,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Things We Won't Change
 subtitle: 2024 - Zine
+date: 24-10-12
 image: assets/img/abortionzine/blackedges/border6.png
 website: https://issuu.com/juliette.orangetree/docs/my_body_my_fucking_choice_3?fbclid=PAZXh0bgNhZW0CMTEAAaZdegCPyR64cZk3bM1Hzpcs6poVTnICZFWfVY69JTTo0QrmkUCwdETgPaw_aem_Ry2FeHQJR6cLnLsF8XDqYg 
 

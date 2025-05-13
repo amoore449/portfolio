@@ -1,10 +1,11 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2024
   title: Taiwan Comics
   thumbnail: assets/img/portfoliopictures/art/taiwan1.jpg
+  date: 24-08-06
   materials: Digital
 
 
@@ -13,6 +14,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Taiwan Comics
 subtitle: 2024 - Digital
+date: 24-08-06
 image: assets/img/portfoliopictures/art/taiwan1.jpg
 
 

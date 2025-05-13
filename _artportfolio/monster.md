@@ -1,8 +1,9 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2025
+  date: 25-03-12
   title: Monsters
   thumbnail: assets/img/monstersart/monster8.jpg
   materials: Digital
@@ -12,6 +13,7 @@ caption: #what displays in the portfolio grid
 
 #what displays when the item is clicked:
 title: Monsters
+date: 25-03-12
 subtitle: 2025 - Comics
 image: assets/img/monstersart/monsters8.jpg
 

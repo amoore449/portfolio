@@ -8,13 +8,22 @@
 
   
 <div class="row">
+  <div class="col-lg-12 text-center no-padding">
+    <div id="myBtnContainer">
+      <button class="mybtn btn active" onclick="filterSelection('all')"> Show all</button>
+      {% for category in site.data.sitetext[site.locale].artportfolio.categorylist %}
+      
+      <button class="mybtn btn" onclick="filterSelection(' {{ category | replace: ' ', '' | downcase }}')"> {{ category }}</button>
+      {% endfor %}
+    </div>
+  </div> 
 
 
 
 
   
   <!-- Sort by the year of project-->
-  {% assign sorted_portfolio = site.artportfolio | sort: "subtitle" | reverse %} 
+  {% assign sorted_portfolio = site.artportfolio | sort: "caption.subtitle" | reverse %} 
 
   <!-- cycle through sorted projects to show them all in a grid-->
   {% for project in sorted_portfolio %}

@@ -1,5 +1,5 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2024
@@ -12,6 +12,7 @@ caption: #what displays in the portfolio grid
 
 #what displays when the item is clicked:
 title: Work Lunch
+date: 24-11-24
 subtitle: 2024 - Comics
 image: assets/img/executiveorder/2.jpg
 

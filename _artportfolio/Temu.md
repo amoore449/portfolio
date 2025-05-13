@@ -1,5 +1,5 @@
 ---
-category: ["digital art"]
+category: ["Comics and Zines"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2025
@@ -13,6 +13,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Executive Order Summary
 subtitle: 2025 - Comics
+date: 25-01-05
 image: assets/img/executiveorder/2.jpg
 
 

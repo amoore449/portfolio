@@ -1,8 +1,9 @@
 ---
-category: ["digital art"]
+category: ["Design", "Adobe Suite"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2025
+  date: 25-05-01
   title: Hive-lights - Anthony Fanticola 
   thumbnail: assets\img\design\anthony1.png
   materials: Digital
@@ -13,6 +14,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Hive-lights - Anthony
 subtitle: 2025
+date: 25-05-01
 image: assets\img\design\anthony1.png
 website: https://www.instagram.com/p/DJcCbdBtjlg/?img_index=1
 

@@ -1,8 +1,9 @@
 ---
-category: ["digital art"]
+category: ["Other Art", "Screenprinting"]
 
 caption: #what displays in the portfolio grid:
   subtitle: 2024
+  date: 24-08-12
   title: Screenprints
   thumbnail: assets/img/Screenprints/2.jpg
   materials: Screenprinting, Digital Transfer
@@ -11,6 +12,7 @@ caption: #what displays in the portfolio grid:
 
 #what displays when the item is clicked:
 title: Screenprints
+date: 24-08-12
 subtitle: 2024 - Screenprinting, Digital Transfer
 image: assets/img/portfoliopictures/art/eyepus.JPG
 
