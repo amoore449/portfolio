@@ -1,7 +1,7 @@
 
 
 <!-- Portfolio Modals -->
-{% assign sorted_artportfolio = site.artportfolio | sort: "subtitle" | reverse %} 
+{% assign sorted_artportfolio = site.artportfolio | sort: "caption.subtitle" | reverse %} 
 {% for artproject in sorted_artportfolio %}
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <div
