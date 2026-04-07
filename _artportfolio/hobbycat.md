@@ -5,7 +5,7 @@ caption: #what displays in the portfolio grid
   subtitle: 2024
   title: Hobby Cat
   date: 24-07-06
-  thumbnail: assets/img/hobbycat/3.png
+  thumbnail: assets/img/hobbycat/3.PNG
   materials: Digital
 
 
@@ -21,24 +21,24 @@ image: assets/img/executiveorder/2.jpg
 ---
 <div class="row padded">
    <div class="col-md-6 col-sm-6">
-     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/2.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/2.PNG" alt=""/>
   </div>
    <div class="col-md-6 col-sm-6">
-     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/3.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/3.PNG" alt=""/>
   </div>
      <div class="col-md-6 col-sm-6">
-     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/4.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/4.PNG" alt=""/>
   </div>
    <div class="col-md-6 col-sm-6">
-     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/5.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/5.PNG" alt=""/>
   </div>
      <div class="col-md-6 col-sm-6">
-     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/6.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/hobbycat/6.PNG" alt=""/>
   </div>
   <div class="col-md-6 col-sm-6">
-     <img class="img-fluid d-block mx-auto" src="ssets/img/hobbycat/7.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="ssets/img/hobbycat/7.PNG" alt=""/>
   </div>
   <div class="col-md-6 col-sm-6 ">
-     <img class="img-fluid d-block mx-auto" src="ssets/img/hobbycat/8.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="ssets/img/hobbycat/8.PNG" alt=""/>
   </div>
 </div>

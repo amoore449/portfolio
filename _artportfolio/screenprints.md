@@ -5,7 +5,7 @@ caption: #what displays in the portfolio grid:
   subtitle: 2024
   date: 24-08-12
   title: Screenprints
-  thumbnail: assets/img/Screenprints/2.jpg
+  thumbnail: assets/img/screenprints/2.jpg
   materials: Screenprinting, Digital Transfer
 
 
@@ -24,19 +24,19 @@ Hand screenprinted shirts and prints of a digital drawing of the infamous [Allst
 <div class="row padded">
 
   <div class="col-md-6 col-sm-6 ">
-     <img class="img-fluid d-block mx-auto" src="aassets/img/Screenprints/2.jpg" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="aassets/img/screenprints/2.jpg" alt=""/>
   </div>
    <div class="col-md-6 col-sm-6 ">
-       <img class="img-fluid d-block mx-auto" src="assets/img/Screenprints/3.jpg" alt="">
+       <img class="img-fluid d-block mx-auto" src="assets/img/screenprints/3.jpg" alt="">
   </div>
   <div class="col-md-6 col-sm-6 ">
-     <img class="img-fluid d-block mx-auto" src="aassets/img/Screenprints/4.jpg" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="aassets/img/screenprints/4.jpg" alt=""/>
   </div>
     <div class="col-md-6 col-sm-6 ">
-       <img class="img-fluid d-block mx-auto" src="assets/img/Screenprints/5.jpg" alt="">
+       <img class="img-fluid d-block mx-auto" src="assets/img/screenprints/5.jpg" alt="">
   </div>
   
   <div class="col-md-6 col-sm-6 ">
-     <img class="img-fluid d-block mx-auto" src="aassets/img/Screenprints/6.JPG" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="aassets/img/screenprints/6.JPG" alt=""/>
   </div>
 </div>
