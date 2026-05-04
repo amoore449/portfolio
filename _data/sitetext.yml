@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "I'm a person-of-little-to-no-concern located in Boston MA. This is a website I made for showing other things I've made!"
+    title: "I'm a person-of-little-to-no-concern located in Oakland, CA. This is a website I made for showing other things I've made!"
     text: Hi, I'm Allison!
     profileimg: assets/img/IMG_6290.jpg
     button: "'Bleep Bloop' Projects"
@@ -101,10 +101,10 @@ en: &DEFAULT_EN
 
   about:
     title: "About Me"
-    body: "My name is Allison. I'm an engineer, maker, and educator located in Boston MA, and originally from Sunnyvale, CA.
+    body: "My name is Allison. I'm an engineer, maker, and educator currently located in Oakland, CA, often located in Boston MA, and originally from Sunnyvale, CA.
  I received my B.S. in Mechanical Engineering from Tufts University in Medford MA, and have since worked mainly in education, robotics, and makerspaces. I love making anything and everything, especially alongside other people.  
-I think the fundamental role of technology should be to enhance quality of life for all, to help individuals better realize creative processes, and to help people determine their social futures. Consequently, I am curious about the design of technology and systems that put the power to create in the hands of users. 
-I have a leopard gecko named Morton and also like to make art and comics. I made this website in HTML/CSS using a Jekyll build.."
+I think the fundamental role of technology should be to enhance quality of life for all, to help individuals better realize creative processes, and to help people determine their social futures. Consequently, I am curious about the design of technology and educational systems that put the power to create in the hands of users. 
+I have a leopard gecko named Morton and also like to make art and comics. I speak English and some Spanish (more English than Spanish) and I am White and Chinese (more White than Chinese). I made this website in HTML/CSS using a Jekyll build."
     section: about
 
   clients:
