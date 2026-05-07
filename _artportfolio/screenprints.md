@@ -14,7 +14,7 @@ caption: #what displays in the portfolio grid:
 title: Screenprints
 date: 24-08-12
 subtitle: 2024 - Screenprinting, Digital Transfer
-image: assets/img/portfoliopictures/art/eyepus.JPG
+image: assets/img/screenprints/2.jpg
 
 
 ---
@@ -24,13 +24,13 @@ Hand screenprinted shirts and prints of a digital drawing of the infamous [Allst
 <div class="row padded">
 
   <div class="col-md-6 col-sm-6 ">
-     <img class="img-fluid d-block mx-auto" src="aassets/img/screenprints/2.jpg" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/screenprints/2.jpg" alt=""/>
   </div>
    <div class="col-md-6 col-sm-6 ">
        <img class="img-fluid d-block mx-auto" src="assets/img/screenprints/3.jpg" alt="">
   </div>
   <div class="col-md-6 col-sm-6 ">
-     <img class="img-fluid d-block mx-auto" src="aassets/img/screenprints/4.jpg" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/screenprints/4.jpg" alt=""/>
   </div>
     <div class="col-md-6 col-sm-6 ">
        <img class="img-fluid d-block mx-auto" src="assets/img/screenprints/5.jpg" alt="">
