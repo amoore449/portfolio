@@ -101,10 +101,13 @@ en: &DEFAULT_EN
 
   about:
     title: "About Me"
-    body: "My name is Allison. I'm an engineer, maker, and educator currently located in Oakland, CA, often located in Boston MA, and originally from Sunnyvale, CA.
- I received my B.S. in Mechanical Engineering from Tufts University in Medford MA, and have since worked mainly in education, robotics, and makerspaces. I love making anything and everything, especially alongside other people.  
+    body: "My name is Allison. Things I like to do include making things (ideally with other people), teaching others to make things (always with other people), and being outside.
+    
+     I received my B.S. in Mechanical Engineering from Tufts University in 2022 and have mostly worked in education, the arts, robotics, and makerspaces.
 I think the fundamental role of technology should be to enhance quality of life for all, to help individuals better realize creative processes, and to help people determine their social futures. Consequently, I am curious about the design of technology and educational systems that put the power to create in the hands of users. 
-I have a leopard gecko named Morton and also like to make art and comics. I speak English and some Spanish (more English than Spanish) and I am White and Chinese (more White than Chinese). I made this website in HTML/CSS using a Jekyll build."
+I think the fundamental role of art should be to do whatever you want for the most part. 
+I have a leopard gecko named Morton. Some specific things I particularly enjoy creating are visual comics and robots. Morton has yet to be published, but some of the art and comics have been published in the Boston Compass and in Last Place Magazine. Some of the robots have been published in the 2022 IROS conference and also in a factory in Texas. 
+I made this website in HTML/CSS using a Jekyll build. My email is moore.m.alli@proton.me. "
     section: about
 
   clients:

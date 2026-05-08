@@ -14,7 +14,7 @@ caption: #what displays in the portfolio grid
 #what displays when the item is clicked:
 title: Hobby Cat
 date: 24-07-26
-subtitle: 2024 - Comics
+subtitle: 07/26/24 - Comics
 image: assets/img/executiveorder/2.jpg
 
 
