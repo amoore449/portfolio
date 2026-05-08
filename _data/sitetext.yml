@@ -161,7 +161,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Me"
-    text: "Write a message here or email moore.m.allison@gmail.com"
+    text: "Write a message here or email moore.m.alli@proton.me"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
