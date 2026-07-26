@@ -5,7 +5,7 @@ caption: #what displays in the portfolio grid
   subtitle: 2026
   title: Love Story
   date: 26-01-02
-  thumbnail: assets/img/comics/lovestory/1.png
+  thumbnail: assets/img/comics/lovestory/1.PNG
   materials: Digital
 
 
@@ -15,24 +15,24 @@ caption: #what displays in the portfolio grid
 title: Love Story
 date: 26-01-06
 subtitle: 01/06/26 - Comics
-image: assets/img/executiveorder/2.jpg
+
 
 
 ---
 
-A four page comic for the February 2026 edition of last place magazine. 
+A four page comic for the February 2026 edition of Last Place magazine. 
 
 <div class="row padded">
    <div class="col-md-12 col-sm-12">
-     <img class="img-fluid d-block mx-auto" src="assets/img/comics/lovestory/1.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/comics/lovestory/1.PNG" alt=""/>
   </div>
    <div class="col-md-12 col-sm-12">
-     <img class="img-fluid d-block mx-auto" src="assets/img/comics/lovestory/2.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/comics/lovestory/2.PNG" alt=""/>
   </div>
      <div class="col-md-12 col-sm-12">
-     <img class="img-fluid d-block mx-auto" src="assets/img/comics/lovestory/3.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/comics/lovestory/3.PNG" alt=""/>
   </div>
    <div class="col-md-12 col-sm-12">
-     <img class="img-fluid d-block mx-auto" src="assets/img/comics/lovestory/4.png" alt=""/>
+     <img class="img-fluid d-block mx-auto" src="assets/img/comics/lovestory/4.PNG" alt=""/>
   </div>
 </div>
