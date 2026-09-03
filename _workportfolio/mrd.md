@@ -5,7 +5,7 @@ caption: #what displays in the portfolio grid:
   title: Teaching Artist - Mr. D's Music Club
   subtitle: 2026
   enddate: 2026
-  thumbnail: assets/img/mrd/3.jpg
+  thumbnail: assets/img/mrd/3.JPG
   
 #what displays when the item is clicked:
 title: Teaching Artist - Mr. D's Music Club
@@ -15,9 +15,10 @@ alt: image alt text
 website: https://www.mrdsmusicclub.com/
 
 slides:
-  - image: assets/img/mrd/1.jpg
-  - image: assets/img/mrd/2.jpg
-  - image: assets/img/mrd/3.jpg
+  - image: assets/img/mrd/1.JPG
+  - image: assets/img/mrd/2.JPG
+  - image: assets/img/mrd/3.JPG
+  - image: assets/img/mrd/3.JPG
 
 
 ---
