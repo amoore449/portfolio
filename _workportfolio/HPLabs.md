@@ -10,9 +10,6 @@ caption: #what displays in the portfolio grid:
 title: HP Labs
 subtitle: 2017
 image: assets/img/portfoliopictures/134_Robotics/front.png 
-alt: image alt text
-video: https://www.youtube.com/embed/QNlgrqZ3geU
-website: https://github.com/amoore449/ME134_Robotics/tree/main/HW3-Robotic%20Arm
 
 slides:
   - image: assets/img/portfoliopictures/HP/1.jpg
