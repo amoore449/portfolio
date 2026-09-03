@@ -18,7 +18,7 @@ slides:
   - image: assets/img/mrd/1.JPG
   - image: assets/img/mrd/2.JPG
   - image: assets/img/mrd/3.JPG
-  - image: assets/img/mrd/3.JPG
+  - image: assets/img/mrd/4.JPG
 
 
 ---
