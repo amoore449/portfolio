@@ -14,8 +14,11 @@ image: assets/img/DSC.jpg
 alt: image alt text
 website: https://1800gotlove.org/
 
-slides:
-  - image: assets/img/DSC.jpg
 ---
 
+<div class="row padded padded-bottom">
+  <div class="col-md-12 col-sm-12 ">
+    <img class="img-fluid d-block mx-auto" src="assets/img/DSC.jpg" alt="{{ slide.image }}"/>
+  </div>
+</div>
 A database of different people's definitions of love I've collected over time.
