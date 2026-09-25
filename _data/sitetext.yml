@@ -40,7 +40,6 @@ en: &DEFAULT_EN
     image: assets/img/IMG_6290.jpg
     categorylist:
       - "Engineering"
-      - "Art"
       - "Education"
 
   artportfolio:

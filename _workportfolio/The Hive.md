@@ -1,16 +1,16 @@
 ---
-category: ["education"]
+category: ["education", "Art"]
 
 caption: #what displays in the portfolio grid:
   title: The Hive, Makerspace 
   subtitle: 2024
   enddate: 2025
-  thumbnail: assets/img/portfoliopictures/hive/hive.jpg
+  thumbnail: assets/img/hive/gamejam.JPG
   
 #what displays when the item is clicked:
 title: The Hive, Makerspace
 subtitle: 2024
-image: assets/img/portfoliopictures/hive/thehive.jpg
+image: assets/img/hive/gamejam.JPG
 alt: image alt text
 website: https://www.cambridgema.gov/Departments/cambridgepubliclibrary/Locations/mainlibrary/thehive
 
