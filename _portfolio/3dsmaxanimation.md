@@ -1,5 +1,5 @@
 ---
-category: ["CAD", "art", "animation"]
+category: ["CAD", "art", "Design", "animation"]
 
 caption: #what displays in the portfolio grid:
   title: 3DS Max Animation

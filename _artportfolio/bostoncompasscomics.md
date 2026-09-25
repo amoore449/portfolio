@@ -1,5 +1,5 @@
 ---
-category: ["Comics and Zines"]
+category: ["Comics and Zines", "Publications"]
 
 caption: #what displays in the portfolio grid
   subtitle: 2026

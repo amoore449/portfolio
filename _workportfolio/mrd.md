@@ -4,7 +4,6 @@ category: ["education"]
 caption: #what displays in the portfolio grid:
   title: Teaching Artist - Mr. D's Music Club
   subtitle: 2026
-  enddate: 2026
   thumbnail: assets/img/mrd/3.JPG
   
 #what displays when the item is clicked:

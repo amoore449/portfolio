@@ -1,5 +1,5 @@
 ---
-category: ["CAD"]
+category: ["CAD", "Design"]
 
 caption: #what displays in the portfolio grid:
   title: Deflection Finite Element Analysis

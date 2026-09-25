@@ -1,5 +1,5 @@
 ---
-category: ["robotics"]
+category: ["robotics", "Design"]
 
 caption: #what displays in the portfolio grid:
   title: Leg Locker 

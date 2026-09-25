@@ -1,5 +1,5 @@
 ---
-category: ["robotics", "assistive tech"]
+category: ["robotics", "Design", "assistive tech"]
 
 caption: #what displays in the portfolio grid:
   title: Assistive Page Turning Robot

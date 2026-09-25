@@ -1,5 +1,5 @@
 ---
-category: ["robotics"]
+category: ["robotics", "Code"]
   
 caption: #what displays in the portfolio grid:
   title: Balancing Robot

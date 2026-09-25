@@ -1,5 +1,5 @@
 ---
-category: ["electronics", "robotics", "art"]
+category: ["electronics", "robotics", "Design", "art"]
 
 caption: #what displays in the portfolio grid:
   title: Public Art Display

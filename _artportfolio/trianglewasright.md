@@ -1,5 +1,5 @@
 ---
-category: ["art"]
+category: ["Comics and Zines", "Publications"]
 
 caption: #what displays in the portfolio grid:
   title: Triangle was Right

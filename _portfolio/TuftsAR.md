@@ -1,5 +1,5 @@
 ---
-category: ["CAD", "AR"]
+category: ["CAD", "AR", "Code", "Design"]
 
 caption: #what displays in the portfolio grid:
   title: Tufts AR

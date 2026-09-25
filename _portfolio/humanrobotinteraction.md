@@ -1,5 +1,5 @@
 ---
-category: ["robotics"]
+category: ["robotics", "Code"]
   
 caption: #what displays in the portfolio grid:
   title: Human Robot Interaction
@@ -11,7 +11,6 @@ title: Human Robot Interaction
 subtitle: 2021
 image: assets/img/portfoliopictures/134_Robotics/hw5/hri2.jpg
 alt: image alt text
-video: https://www.youtube.com/embed/pEZi_Z1k4S0
 github: https://github.com/amoore449/ME134_Robotics/tree/main/HW5-HumanRobotInteraction
 
 slides:

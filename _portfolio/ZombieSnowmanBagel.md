@@ -1,5 +1,5 @@
 ---
-category: ["Game Design"]
+category: ["Game Design", "Code", "Design"]
 
 caption: #what displays in the portfolio grid:
   title: The Zombie Snowman Bagel Game

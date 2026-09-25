@@ -1,5 +1,5 @@
 ---
-category: ["research", "3d printing"]
+category: ["research", "Design", "3d printing"]
   
 caption: #what displays in the portfolio grid:
   title: HP Labs IXL 

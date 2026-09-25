@@ -1,5 +1,5 @@
 ---
-category: ["robotics"]
+category: ["robotics", "Code"]
   
 caption: #what displays in the portfolio grid:
   title: Robotic Sheepherding
@@ -12,8 +12,7 @@ title: Robotic Sheepherding
 subtitle: 2022
 image: assets/img/portfoliopictures/kalman/ray.png
  #main image, can be a link or a file in assets/img/portfolio
-alt: A Balancing Robot
-video: https://www.youtube.com/embed/WlWCRKtc42w?si=SX2AYdMl3Y2070-6 
+video: https://www.youtube.com/embed/lg73g9mIbcI?si=dj4F-QbuMNsLB3Jx 
 
 website: https://docs.google.com/presentation/d/1zZCdPusDTMsXNv8rVJC8Bo2wtI6OWp9kocA7XQ0z0ho/edit?usp=sharing 
 

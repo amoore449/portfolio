@@ -1,5 +1,5 @@
 ---
-category: ["robotics"]
+category: ["robotics", "Code", "Research"]
   
 caption: #what displays in the portfolio grid:
   title: CHORE robot

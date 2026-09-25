@@ -1,5 +1,5 @@
 ---
-category: ["Web Design"]
+category: ["Web Design", "Design", "Code"]
 
 caption: #what displays in the portfolio grid:
   title: CEEO Innovations
